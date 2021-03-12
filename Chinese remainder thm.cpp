@@ -34,7 +34,7 @@ int modInverse(int a, int m)
     return abs(x);
 }
 
-int find_min_x(int rem[], int pp[], int inv[], int n, int prod)
+int find_min_x(int rem[], int pp[], int inv[], int n, int prod) //find min
 {
     int x = 0;
     for (int i = 0; i < n; i++)
